@@ -1,6 +1,5 @@
 
-// ZASADY zrobie tam poźniej kiedyś tam
-// back
+
 
 
 package Projekt;
@@ -97,7 +96,7 @@ public class ZuzelApp {
                 zuzel.sortPlayers("J", sum1);
                 zuzel.sortPlayers("P", sum2);
 
-                if (defaultModelChosen.size() != 6 || zuzel.getSortResult() > 2) {
+                if (defaultModelChosen.size() > 6 || zuzel.getSortResult() > 2) {
                     randomArea.setText("wybrałes złą ilość zawodników");
                     zuzel.getselectedPlayers().clear();
                 } else
