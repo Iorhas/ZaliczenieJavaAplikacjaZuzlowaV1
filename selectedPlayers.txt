@@ -1,6 +1,1 @@
-Piotr;Pawlicki;5;P
-Janusz;Kołodziej;0;P
-Jarosław;Hampel;0;D
-Jaimon;Lindsey;0;D
-Dominik;Kubera;0;J
-Tymoteusz;Picz;0;J
+
