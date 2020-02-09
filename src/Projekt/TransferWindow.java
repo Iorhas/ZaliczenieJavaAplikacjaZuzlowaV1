@@ -83,7 +83,7 @@ public class TransferWindow {
                 zuzel.sortPlayers("P", sum2);
 
 
-                if (myTeamDefaultList.size() != 6 || zuzel.getSortResult() > 2) {
+                if (myTeamDefaultList.size() > 6 || zuzel.getSortResult() > 2) {
                     errorText.setText("wybrałes złą ilość zawodników");
                     showTransferPoints.setText(String.valueOf(zuzel.getMinusPoints()));
                     zuzel.getselectedPlayers().clear();
